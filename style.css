@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.nav {
+    width: 100%;
+    height: 10vh;
+    background-color:#140b42;
+    border-bottom: 1px solid black;
+    color:black;
+    display: flex;
+    align-items: center;
+}
+.logo {
+     background-image: url(logo.png); 
+    width: 15vw;
+    height:7.5vh ;
+    background-size: cover;
+    margin-left: 2vw;
+}
+.menu a {
+   text-decoration: none;
+   color:white;
+   padding: 2vw;
+   font-size: 1.5vw;
+   
+}
+.menu {
+    margin-left: 40vw;
+    align-items: center;
+}
+.menu button {
+    padding: 8px 24px;
+    border-radius: 15px;
+    background-color: #9E0B3C;
+    border: none;
+    font-size: 1vw;
+    color: white;
+}
+.img {
+    width: 100%;
+    height: 95vh;
+   
+    background-image: url(imag.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+.content {
+    width: 45%;
+    height: 70vh;
+    padding:100px 50px;
+}
+.content h1 {
+    font-size: 6vw;
+    color: white;
+    
+    
+}
+.content span {
+    color: #CE0113;
+}
+.content p {
+    color: white;
+    font-size: 1.5vw;
+}
+.content button {
+    padding: 15px 30px;
+    margin: 40px 20px;
+    border-radius: 15px;
+    font-size: 1.5vw;
+    background-color: #A90329;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.circle {
+    background-image: url(web.webp);
+    background-size: cover;
+    border-radius: 500px;
+    width: 40vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 120px 50px;
+    align-items: center;
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 5, 0.654);
+    display: flex;
+    justify-content: center;
+}
+.centre {
+    border: 2px solid black;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services {
+    border: 2px solid rgb(32, 142, 245);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgba(48, 43, 43, 0.562);
+    width: 80%;
+    height: 20vh;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.239);    
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.profile {
+    height: 18vh;
+    width: 9vw;
+    border: 2px solid rgba(45, 143, 241, 0.342);
+    border-radius: 100px;
+    margin: 7px 65px;
+    background-size: cover;
+    background-image: url(my.png);
+}
+.services h1 {
+    color: aqua;
+    font-size:3.2vw ;
+   
+}
+@media (max-width: 500px) {
+    .nav {
+        width: 100%;
+        height: 8vh;
+        background-color:#140b42;
+        border-bottom: 1px solid black;
+        color:black;
+        display: flex;
+        align-items: center;
+    }
+    .menu a {
+        display: none;
+    }
+    .logo {
+        background-image: url(logo.png); 
+       width: 45vw;
+       height:7.5vh ;
+       background-size: cover;
+       margin: 0;
+       padding: -0.5px 8px;
+  }
+  .menu button {
+  
+    border-radius: 15px;
+    background-color: #9E0B3C;
+    border: none;
+    font-size: 2vw;
+    color: white;
+  
+}
+.menu {
+    margin-left: 90px;
+}
+.content {
+    width: 45%;
+    height: 70vh;
+    padding:40px 20px;
+    
+}
+.img {
+    width: 100%;
+    height: 95vh;
+   
+    background-image: url(imag.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    
+}
+.content h1 {
+    font-size: 11vw;
+    color: white;
+}
+.circle {
+    display: none;
+}
+.content {
+    width: 100%;
+    height: 70vh;
+    padding:70px 10px;
+}
+.content p {
+    color: white;
+    font-size: 4vw;
+}
+.content button {
+    padding: 15px 30px;
+    margin: 12px 8px;
+    border-radius: 15px;
+    font-size: 3vw;
+    background-color: #A90329;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.services {
+    border: 2px solid rgb(32, 142, 245);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(48, 43, 43, 0.562);
+    width: 90%;
+    height: 15vh;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.239);    
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.centre {
+    border: 2px solid black;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+    height: 12vh;
+    width: 20vw;
+    border: 2px solid rgba(45, 143, 241, 0.342);
+    border-radius: 100px;
+    margin: 1px 7px;
+    background-size: cover;
+    background-image: url(my.png);
+}
+.services h1 {
+    color: aqua;
+    font-size:3.5vw ;
+}
+}
